@@ -8,6 +8,21 @@ presentations, and not product UI implementation. The goal is to turn web-first
 brand guidance into a format that image models and design agents can use when
 generating assets for PowerPoint, Keynote, PDF decks, or visual essays.
 
+This project is adapted from the upstream `DESIGN.md` collection maintained at
+[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md).
+Its purpose is to reinterpret those web and UI oriented references as
+presentation-image prompts and guidance.
+
+## Upstream source
+
+The original source catalog for this project is:
+
+- [https://github.com/VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
+
+This repository is a derivative conversion tool and prompt library. It is not
+the original source catalog, and it should not be confused with the upstream
+project.
+
 ## What this repo is
 
 - a converter from source `DESIGN.md` files to `ppt-image/<brand>/DESIGN.md`
@@ -28,6 +43,8 @@ This repository is structured so that **local downloaded sources stay local by
 default**.
 
 - `source/` is ignored by `.gitignore`
+- local source files are expected to originate from
+  [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
 - the repository license applies to repo-authored code and docs
 - third-party brand names and source materials remain the property of their
   owners
