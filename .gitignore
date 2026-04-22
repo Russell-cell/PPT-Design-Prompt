@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Local-only downloaded upstream sources.
+source/
+
+# Local scratch output.
+tmp/
+tmp-*/
+.tmp-pip/
+.tmp-tests/
+tmp-smoke-manifest.json
