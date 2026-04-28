@@ -3,6 +3,8 @@
 Convert `DESIGN.md` brand references into presentation-image oriented
 `DESIGN.md` files.
 
+1
+
 This repository is for **slide image systems**, not full slide decks, not HTML
 presentations, and not product UI implementation. The goal is to turn web-first
 brand guidance into a format that image models and design agents can use when
